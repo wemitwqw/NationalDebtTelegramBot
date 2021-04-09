@@ -8,7 +8,7 @@ Lühikirjeldus:
 ### Lisafunktsionaalsus
   
   - Browser agent spoof  
-  - Proxy grabber
+  - Proxy grabber (request toimub koos proxy-ga)
 
 ### Kasutatud tehnoloogiad
 
