@@ -14,7 +14,7 @@ Lühikirjeldus:
 
 | Tarkvara |
 | ------ |
-| Python |
+| Python 3.7 |
 | [Telegram Bot library](https://github.com/python-telegram-bot/python-telegram-bot) |
 | [Schedule library](https://pypi.org/project/schedule/) |
 | [Beautiful Soup 4 library](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup) |
