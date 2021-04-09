@@ -1,4 +1,4 @@
-# USANationalDebtBot
+# USANationalDebtTelegramBot
 
 Lühikirjeldus:
 
