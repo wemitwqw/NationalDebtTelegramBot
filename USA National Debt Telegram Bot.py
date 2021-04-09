@@ -52,8 +52,8 @@ def USADebt():
     bot.sendMessage(chat_ID, text = "В данный момент национальный долг США составляет: \n" + debt.text)
     s.cookies.clear()
 
-schedule.every().day.at("20:00").do(USADebt)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+if __name__ == '__main__':
+    schedule.every().day.at("20:00").do(USADebt)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
