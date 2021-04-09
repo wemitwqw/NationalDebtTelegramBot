@@ -3,7 +3,7 @@
 Lühikirjeldus:
 
   - USANationalDebtTelegramBot on projekt, mille raames töötasin boti üle messengeri Telegram jaoks.
-  - Eesmärgiks oli looda boti, mis teatab Telegram chattis iga päev Ameerika Ühendriikide riigivõla suurusest.
+  - Eesmärgiks oli luua boti, mis teatab Telegram chattis iga päev Ameerika Ühendriikide riigivõla suurusest.
 
 ### Funktsionaalsus
   
