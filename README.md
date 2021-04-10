@@ -1,14 +1,14 @@
 # NationalDebtTelegramBot
 
-Lühikirjeldus:
+### Lühikirjeldus
+  - NationalDebtTelegramBot on projekt, mille raames arendasin Telegram chatboti.
+  - Eesmärgiks oli luua chatboti, mis teatab iga päev Ameerika Ühendriikide riigivõla suurusest.
 
-  - NationalDebtTelegramBot on projekt, mille raames arendasin messengeri Telegram boti.
-  - Eesmärgiks oli luua boti, mis teatab Telegram chattis iga päev Ameerika Ühendriikide riigivõla suurusest.
-
-### Lisafunktsionaalsus
-  
-  - Browser agent spoof  
-  - Proxy grabber (Proxy11 API kaudu)
+### Kuidas bot töötab
+  - Saab värsket proxy-t Proxy11 teenuse API kaudu.
+  - Konstrueerib requesti www.pgpf.org veebisaidile (Peidetud brauseri User Agent + proxy)
+  - Parsib riigivõla muutujat veebisaidilt
+  - Saadab Telegram chatti parsitud väärtust
 
 ### Kasutatud tehnoloogiad
 
