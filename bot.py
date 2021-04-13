@@ -9,7 +9,6 @@ import json
 #MAIN
 chat_ID = CHAT_ID_SIIA
 bot = telegram.Bot(token='BOT_TOKEN_SIIA')
-proxies = {'https': 'PROXY11_API_VÕTI_SIIA'}
 
 #USA Debt
 debt_URL = "https://www.pgpf.org/national-debt-clock"
@@ -24,7 +23,7 @@ user_agent_list = [
     ]
 
 def ProxyGrab():
-    req = requests.get("https://proxy11.com/api/proxy.json?key=MjcxMw.YD6IYQ.Y8SZgZTQGnCeADd5uxjodqUJFzA&limit=1&port=80")
+    req = requests.get("https://proxy11.com/api/proxy.json?key=PROXY11_TOKEN_SIIA&limit=1&port=80")
     dataproxy = req.json()
     proxy = '{' + "'http': '" + dataproxy['data'][0]["ip"] + ":" + dataproxy['data'][0]["port"] + "'}"
     return proxy
