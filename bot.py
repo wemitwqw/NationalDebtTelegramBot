@@ -1,5 +1,4 @@
 import telegram
-import schedule
 import time
 from bs4 import BeautifulSoup
 import requests
@@ -52,7 +51,4 @@ def USADebt():
     s.cookies.clear()
 
 if __name__ == '__main__':
-    schedule.every().day.at("20:00").do(USADebt)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    USADebt()
