@@ -47,7 +47,7 @@ def USADebt():
     req = s.get(debt_URL, headers = header, proxies = proxyFormat)
     soup = BeautifulSoup(req.content, 'html.parser')
     debt = soup.find("div", class_ = "debt-gross")
-    bot.sendMessage(chat_ID, text = "В данный момент национальный долг США составляет: \n" + debt.text)
+    bot.sendMessage(chat_ID, text = "USA GOV Debt: \n" + debt.text)
     s.cookies.clear()
 
 if __name__ == '__main__':
